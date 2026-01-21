@@ -451,11 +451,12 @@ public class outrageousScript : MonoBehaviour {
         {
             { "Filename", "OutrageousSettings.json" },
             { "Name", "Outrageous Settings" },
-            { "Listing", new List<Dictionary<string, object>>{
+            { "Listings", new List<Dictionary<string, object>>{
                 new Dictionary<string, object>
                 {
                     { "Key", "Resets" },
-                    { "Text", "Whether or not the module resets on a strike." }
+                    { "Text", "Resets" },
+                    { "Description", "Whether or not the module resets on a strike." }
                 }
             } }
         }
